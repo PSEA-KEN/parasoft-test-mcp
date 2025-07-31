@@ -1,0 +1,19 @@
+# MCP Server Logs
+mcp.log
+
+# Node modules
+node_modules/
+
+# Test reports
+test-reports/
+
+# Debug logs
+debug.log
+
+# Temporary files
+*.tmp
+.DS_Store
+
+# Environment files
+.env
+.env.local

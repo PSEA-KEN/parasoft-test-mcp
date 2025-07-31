@@ -1,0 +1,38 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "json": true,
+    "javascript": true,
+    "typescript": true,
+    "python": true
+  },
+  "github.copilot.chat.enable": true,
+  "github.copilot.chat.welcomeMessage": "always",
+  "github.copilot.renameSuggestions.triggerAutomatically": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.preferredAgent": "claude-sonnet-3.5",
+  "github.copilot.chat.model": "claude-sonnet-3.5",
+  "mcp.servers": {
+    "parasoft-test": {
+      "command": "node",
+      "args": ["./mcp-server/index.js"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  },
+  "mcp.client.autoReconnect": true,
+  "mcp.client.timeout": 30000,
+  "files.associations": {
+    "*.mcp": "json"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}

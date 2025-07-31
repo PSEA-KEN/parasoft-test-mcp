@@ -1,0 +1,36 @@
+{
+  "name": "parasoft-test-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Parasoft testing integration with GitHub Copilot Pro and Claude Sonnet 3.5",
+  "main": "mcp-server/index.js",
+  "scripts": {
+    "start": "node mcp-server/index.js",
+    "dev": "node --inspect mcp-server/index.js",
+    "test": "node test/test-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "parasoft",
+    "testing",
+    "github-copilot",
+    "claude-sonnet"
+  ],
+  "author": "PSEA-KEN",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "ws": "^8.14.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PSEA-KEN/parasoft-test-mcp.git"
+  }
+}

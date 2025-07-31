@@ -1,1 +1,11 @@
-This is a basic text file contains parasoft test mcp information.
+Parasoft Test MCP Server Configuration
+
+This repository contains the Model Context Protocol (MCP) server for integrating Parasoft testing tools with GitHub Copilot Pro and Claude Sonnet 3.5.
+
+The MCP server provides the following capabilities:
+- Execute Parasoft test suites with detailed reporting
+- Generate comprehensive test reports in multiple formats
+- Analyze code coverage with configurable thresholds
+- Real-time integration with GitHub Copilot Agent mode
+
+Status: ✅ Configured and ready for use
